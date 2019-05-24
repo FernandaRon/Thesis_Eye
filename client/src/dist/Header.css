@@ -1,7 +1,28 @@
-.header {
-  margin: 0px;
-  padding: 0px;
-  width: 100%; /* full window width */
-  text-align: center;
-  border: 10px;
-  }
+.iframe-outer {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+}
+
+    .iframe-outer:after {
+        content: '';
+        display: block;
+        margin-top: 100%;
+    }
+
+.iframe-inner {
+    overflow: hidden;
+    border-radius: 5000px;
+    transition: all ease .2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    .iframe-inner iframe {
+        height: 120%;
+        width: 120%;
+    }
