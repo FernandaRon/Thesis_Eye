@@ -1,0 +1,41 @@
+#navbar {
+  background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      align-items: center;
+      display: flex;
+
+}
+
+#nHome {
+position: fixed;
+height: 80px;
+position: absolute;
+top: 30px;
+left: 15px;
+
+
+}
+
+#nAbout {
+position: fixed;
+height: 80px;
+position: absolute;
+top: 30px;
+right: 80px;
+
+
+}
+
+#nContac {
+position: fixed;
+height: 80px;
+position: absolute;
+top: 30px;
+right:  200px;
+
+
+}
