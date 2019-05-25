@@ -15,7 +15,6 @@ import Links from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Li
 
 
 
-
 class App extends Component {
   render() {
     return<div>
