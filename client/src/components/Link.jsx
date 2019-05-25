@@ -3,7 +3,7 @@ import {BrowserRouter as Router,
         Route,
         NavLink
 } from 'react-router-dom';
-import  css from '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/Links.css'
+import  '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/Links.css'
 
 
 const Links = () => (
