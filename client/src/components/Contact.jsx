@@ -1,6 +1,6 @@
 import React from 'react'
 import  '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/RRSS.css'
-
+import ContactForm from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/ContactForm.jsx'
 
 
 
@@ -31,6 +31,7 @@ const Contact = (props) => (
   <img src="https://i.imgur.com/matlDSE.png">
   </img>
 </a>
+  <form>{ContactForm}</form>
   </div>
 
   )
