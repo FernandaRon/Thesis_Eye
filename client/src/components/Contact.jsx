@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from './ContactForm.jsx'
 import  '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/RRSS.css'
-import ContactForm from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/ContactForm.jsx'
+
 
 
 
@@ -10,13 +11,14 @@ import ContactForm from '/home/hc-29/Documents/Fer/thesis_eye/client/src/compone
 
 
 const Contact = (props) => (
-
-
+  <div>
+  <ContactForm />
   <div id="icons">
       <a href="https://twitter.com/cotuh_">
         <img src="https://i.imgur.com/fTZMuQ4.png">
         </img>
       </a>
+
 
 <a href="https://www.linkedin.com/in/fernanda-rondon-450086186">
   <img src="https://imgur.com/IedKYhP.png">
@@ -32,6 +34,7 @@ const Contact = (props) => (
   </img>
 </a>
   <form>{ContactForm}</form>
+  </div>
   </div>
 
   )

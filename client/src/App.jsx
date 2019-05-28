@@ -20,7 +20,6 @@ class App extends Component {
     return<div>
 
       <Header />
-      
       <Router>
        <div>
          <Links />
