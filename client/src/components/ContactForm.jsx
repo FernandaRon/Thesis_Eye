@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 //import axios from 'axios';
 import '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/ContactForm.css'
+import axios from 'axios'
 class ContactForm extends Component{
 
     handleSubmit(e){
@@ -10,11 +11,11 @@ class ContactForm extends Component{
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url:"http://localhost:3002/send",
+            url:"/send",
             data: {
                 name: name,
                 email: email,
-                messsage: message
+                message: message
             }
         }).then((response)=>{
             if (response.data.msg === 'success'){
@@ -32,56 +33,59 @@ class ContactForm extends Component{
 
     render(){
         return(
-          <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-      <div class="background">
-        <div class="container">
-          <div class="screen">
-            <div class="screen-header">
-              <div class="screen-header-left">
-                <div class="screen-header-button close"></div>
-                <div class="screen-header-button maximize"></div>
-                <div class="screen-header-button minimize"></div>
+
+      <div className="background">
+      <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+        <div className="container">
+          <div className="screen">
+            <div className="screen-header">
+              <div className="screen-header-left">
+                <div className="screen-header-button close"></div>
+                <div className="screen-header-button maximize"></div>
+                <div className="screen-header-button minimize"></div>
               </div>
-              <div class="screen-header-right">
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
+              <div className="screen-header-right">
+                <div className="screen-header-ellipsis"></div>
+                <div className="screen-header-ellipsis"></div>
+                <div className="screen-header-ellipsis"></div>
               </div>
             </div>
-            <div class="screen-body">
-              <div class="screen-body-item left">
-                <div class="app-title">
+            <div className="screen-body">
+              <div className="screen-body-item left">
+                <div className="app-title">
                   <span>CONTACT</span>
                   <span>ME</span>
                 </div>
-                <div class="app-contact">CONTACT INFO : +52 55 23 25 92 16</div>
+                <div className="app-contact">CONTACT INFO : +52 55 23 25 92 16</div>
               </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="NAME" value=""  id="name">
+              <div className="screen-body-item">
+                <div className="app-form">
+                  <div className="app-form-group">
+
+                    <input className="app-form-control" placeholder="NAME"  id="name">
                     </input>
                   </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL" id="email">
+                  <div className="app-form-group">
+                    <input className="app-form-control" placeholder="EMAIL" id="email">
                     </input>
                   </div>
 
 
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="MESSAGE" id="message">
+                  <div className="app-form-group message">
+                    <input className="app-form-control" placeholder="MESSAGE" id="message">
                     </input>
                   </div>
-                  <div class="app-form-group buttons">
-                    <button  class="app-form-button">SEND</button>
+                  <div className="app-form-group buttons">
+                    <button  className="app-form-button">SEND</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
            </div>
+             </form>
       </div>
-      </form>
+
 
         )
     }

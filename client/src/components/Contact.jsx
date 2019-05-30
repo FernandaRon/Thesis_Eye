@@ -1,14 +1,5 @@
 import React from 'react';
 import ContactForm from './ContactForm.jsx'
-import  '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/RRSS.css'
-
-
-
-
-
-
-
-
 
 const Contact = (props) => (
   <div>

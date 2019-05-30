@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import Header from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Header.js';
-import '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/Header.css'
 import Contact from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Contact.jsx';
 import About from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/About.jsx';
 import Home from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Home.jsx';
@@ -20,6 +19,7 @@ class App extends Component {
     return<div>
 
       <Header />
+      <Home />
       <Router>
        <div>
          <Links />

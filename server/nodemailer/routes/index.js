@@ -1,32 +1,13 @@
-//const app = require('./config.js');
-
-const port = (3000);
-
-
 var express = require('express');
-
+var router = express.Router();
 var nodemailer = require('nodemailer');
 const creds = require('/home/hc-29/Documents/Fer/thesis_eye/server/nodemailer/config/config.js');
-const bodyParser = require("body-parser");
-const compression = require('compression');
-
-const app = express();
-
-
-app.use(compression());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static(__dirname + "/../client/dist"));
 
 var transport = {
-  service: 'gmail',
-  secure: false,
-  port: 25,
+  host: 'smtp.gmail.com',
   auth: {
     user: creds.USER,
     pass: creds.PASS
-  },tls:{
-    rejectUnauthorized:false
   }
 }
 
@@ -39,12 +20,12 @@ transporter.verify((error, success) => {
     console.log('Server is ready to take messages');
   }
 });
-app.post('/send', (req, res, next) => {
-  console.log(req.body)
+
+router.post('/send', (req, res, next) => {
   var name = req.body.name
   var email = req.body.email
   var message = req.body.message
-  var content = `name: ${name} \n email: ${email} \n message: ${message} `
+  var content = `name: ${name} \n email: ${email} \n message: ${content} `
 
   var mail = {
     from: name,
@@ -54,15 +35,16 @@ app.post('/send', (req, res, next) => {
   }
 
   transporter.sendMail(mail, (err, data) => {
-
+    if (err) {
+      res.json({
+        msg: 'fail'
+      })
+    } else {
       res.json({
         msg: 'success'
       })
+    }
   })
 })
 
-
-
-app.listen(port, () => {
-  console.log(`Listening on Port ${port}`);
-});
+module.exports = router;
