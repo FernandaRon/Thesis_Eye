@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 // RHL only for front end development
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
-import Header from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Header.js';
-import Contact from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Contact.jsx';
-import About from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/About.jsx';
-import Home from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Home.jsx';
-import Links from '/home/hc-29/Documents/Fer/thesis_eye/client/src/components/Link.jsx';
+import Header from '../src/components/Header.js';
+import Contact from '../src/components/Contact.jsx';
+import About from '../src/components/About.jsx';
+import Home from '../src/components/Home.jsx';
+import Links from '../src/components/Link.jsx';
 
 
 

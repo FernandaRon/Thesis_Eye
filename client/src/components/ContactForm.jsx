@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 //import axios from 'axios';
-import '/home/hc-29/Documents/Fer/thesis_eye/client/src/dist/ContactForm.css'
+import '../dist/ContactForm.css'
 import axios from 'axios'
-class ContactForm extends Component{
+class ContactForm extends Component {
 
     handleSubmit(e){
         e.preventDefault();

@@ -6,7 +6,7 @@ const port = (3000);
 var express = require('express');
 
 var nodemailer = require('nodemailer');
-const creds = require('/home/hc-29/Documents/Fer/thesis_eye/server/nodemailer/config/config.js');
+const creds = require('../server/nodemailer/config/config.js');
 const bodyParser = require("body-parser");
 const compression = require('compression');
 
