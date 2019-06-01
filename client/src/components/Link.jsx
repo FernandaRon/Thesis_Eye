@@ -7,7 +7,7 @@ import  '../dist/Links.css'
 
 
 const Links = () => (
-  <div id="navbar">
+  <div id="navbar" className="nav-link disabled">
     <nav>
       <div id="nHome">
         <NavLink to="/">Home</NavLink>

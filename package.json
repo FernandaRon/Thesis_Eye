@@ -27,6 +27,7 @@
     "p5-manager": "^0.4.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-iframe": "^1.8.0",
     "react-image-lightbox": "^5.1.0",
     "react-p5-wrapper": "0.0.4",
     "sass": "^1.20.3"
