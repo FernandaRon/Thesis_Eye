@@ -1,54 +1,34 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
+import '../dist/carousel.css'
 
 
 
 
 const CarouselPage = () => {
-  return (
+  return (<div className="dis">
 
-    <MDBContainer>
-      <MDBCarousel
-        activeItem={1}
-        length={3}
-        showControls={false}
-        showIndicators={false}
-        className="z-depth-1"
-      >
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/v6il0FAm.jpg"
-                alt="First slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/un5J4itm.jpg"
-                alt="Second slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/ORHjYIim.jpg"
-                alt="Third slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-        </MDBCarouselInner>
-      </MDBCarousel>
-    </MDBContainer>
+    <p>Art / Work </p>
+    >
+    <img src="https://i.imgur.com/m4BYRpOl.jpg" width="30%" margin="1.66%" padding="10px">
+    </img>
+    <img src="https://i.imgur.com/8ksi27El.jpg" width="30%" margin="1.66%">
+    </img>
 
-  );
+    <img src="https://i.imgur.com/bq19Bbsl.jpg" width="30%" margin="1.66%">
+    </img>
+    <img src="https://i.imgur.com/cbKAn8Sl.jpg" width="30%" margin="1.66%">
+    </img>
+    <img src="https://i.imgur.com/vOnmdyTl.jpg" width="30%" margin="1.66%">
+    </img>
+
+    <img src="https://i.imgur.com/cCB7aixl.jpg" width="30%" margin="1.66%">
+    </img>
+    <img src="https://i.imgur.com/YnRfwFvl.jpg" width="30%" margin="1.66%">
+    </img>
+    <img src="https://i.imgur.com/ORHjYIil.jpg" width="30%" margin="1.66%">
+    </img>
+    </div>
+  )
 }
 
 export default CarouselPage;

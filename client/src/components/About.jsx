@@ -1,10 +1,9 @@
 import React from 'react'
-
+import Carousel from './Carousel.jsx'
 
 const About = (props) => (
   <div>
-
-  <h1> This are my About numbers </h1>
+ <Carousel />
 
   </div>
 )
