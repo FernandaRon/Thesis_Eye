@@ -2,7 +2,7 @@ import React from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
 "mdbreact";
 
-const CarouselDo = () => {
+const CarouselPage = () => {
   return (
     <MDBContainer>
       <MDBCarousel
@@ -17,7 +17,7 @@ const CarouselDo = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://i.imgur.com/cbKAn8Sm.jpg"
+                src="https://i.imgur.com/bq19Bbsm.jpg'"
                 alt="First slide"
               />
             </MDBView>
@@ -26,7 +26,7 @@ const CarouselDo = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://i.imgur.com/8ksi27Em.jpg"
+                src="https://i.imgur.com/m4BYRpOm.jpg"
                 alt="Second slide"
               />
             </MDBView>
@@ -35,7 +35,7 @@ const CarouselDo = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://i.imgur.com/cCB7aixm.jpg"
+                src="https://i.imgur.com/vOnmdyTm.jpg"
                 alt="Third slide"
               />
             </MDBView>
@@ -46,4 +46,4 @@ const CarouselDo = () => {
   );
 }
 
-export default CarouselDo;
+export default CarouselPage;

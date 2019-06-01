@@ -1,11 +1,13 @@
 import React from 'react'
-import Carousel from './Carousel.jsx'
+import LightboxPage from './LightboxPage.jsx'
+import CarouselDo from './Carousel.jsx'
 
 const About = (props) => (
-  <div>
- <Carousel />
+<div className="row">
 
-  </div>
+ <div className="col-sm-4"><LightboxPage /></div>
+  <div className="col-sm-4"><CarouselDo /></div>
+</div>
 )
 
 
