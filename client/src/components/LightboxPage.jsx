@@ -1,48 +1,99 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
+import   '../dist/LightboxPage.css'
 
 const CarouselPage = () => {
   return (
-    <MDBContainer>
-      <MDBCarousel
-        activeItem={2}
-        length={3}
-        showControls={false}
-        showIndicators={false}
-        className="z-depth-2"
-      >
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/bq19Bbsm.jpg'"
-                alt="First slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/m4BYRpOm.jpg"
-                alt="Second slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://i.imgur.com/vOnmdyTm.jpg"
-                alt="Third slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-        </MDBCarouselInner>
-      </MDBCarousel>
-    </MDBContainer>
+    <div className="main">
+
+<div id="header">
+        <h1><strong> ART WORK </strong></h1>
+</div>
+    <div className="row">
+
+
+        <div className="column">
+            <div className="content">
+                <img src=" https://i.imgur.com/bq19Bbsm.jpg" width="100%">
+                </img>
+            </div>
+
+        </div>
+
+        <div className="column">
+                <div className="content">
+                <img src="https://i.imgur.com/m4BYRpOm.jpg" width="100%">
+                </img>
+                </div>
+             </div>
+
+
+
+     <div className="column">
+                <div className="content">
+                <img src="https://i.imgur.com/vOnmdyTm.jpg" width="100%">
+                </img>
+                </div>
+             </div>
+
+
+
+
+
+         <div className="column">
+            <div className="content">
+                <img src="https://i.imgur.com/ORHjYIim.jpg" width="100%">
+                </img>
+            </div>
+
+        </div>
+
+        <div className="column">
+                <div className="content">
+                    <img src="https://i.imgur.com/cCB7aixm.jpg" width="100%">
+                    </img>
+                </div>
+             </div>
+
+
+
+     <div className="column">
+                <div className="content">
+                    <img src="https://i.imgur.com/8ksi27Em.jpg" width="100%">
+                    </img>
+                </div>
+             </div>
+
+
+
+
+
+    <div className="column">
+            <div className="content">
+                <img src="https://i.imgur.com/6Cv4SeVm.jpg" width="100%">
+                </img>
+            </div>
+
+        </div>
+
+        <div className="column">
+                <div className="content">
+                    <img src="https://i.imgur.com/spcTMEnm.jpg" width="100%">
+                    </img>
+                </div>
+             </div>
+
+
+
+     <div className="column">
+                <div className="content">
+                    <img src="https://i.imgur.com/cbKAn8Sm.jpg" width="100%">
+                    </img>
+                </div>
+             </div>
+
+</div>
+</div>
+
   );
 }
 

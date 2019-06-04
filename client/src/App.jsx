@@ -6,9 +6,7 @@ import Contact from '../src/components/Contact.jsx';
 import About from '../src/components/About.jsx';
 import Home from '../src/components/Home.jsx';
 import Links from '../src/components/Link.jsx';
-import LightboxPage from '../src/components/LightboxPage.jsx'
-import CarouselDo from '../src/components/Carousel.jsx'
-import Demo from '../src/components/p5Carousel'
+
 
 
 
@@ -22,9 +20,7 @@ class App extends Component {
          <Route path="/about" component={About} />
          <Route path="/contact" component={Contact} />
        </Router>
-       <CarouselDo />
-       <LightboxPage />
-       <Demo/>
+
      </div>)
   }
 }

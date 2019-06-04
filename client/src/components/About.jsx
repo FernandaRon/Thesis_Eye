@@ -1,16 +1,18 @@
-// import React from 'react'
-// import LightboxPage from './LightboxPage.jsx'
-// import CarouselDo from './Carousel.jsx'
-//
-// const About = (props) => (
-//
-//
-// <div className="row">
-//  <div className="col-sm-4"><LightboxPage /></div>
-//   <div className="col-sm-4"><CarouselDo /></div>
-// </div>
-// )
-//
-//
-//
-// export default About;
+import React from 'react'
+import LightboxPage from './LightboxPage.jsx'
+import  '../dist/LightboxPage.css'
+import Demo from './p5Carousel.jsx'
+const About = (props) => (
+
+
+<div className="row">
+  <div clasName="col">
+    <LightboxPage />
+     <Demo/>
+  </div>
+</div>
+)
+
+
+
+export default About;
