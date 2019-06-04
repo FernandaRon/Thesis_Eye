@@ -2,23 +2,23 @@ import React from "react";
 import '../dist/Footer.css'
 
 const Footer = () => {
-  return (<div>
-            <a  className="logo" href="https://twitter.com/cotuh_">
+  return (<div className="logo">
+            <a   href="https://twitter.com/cotuh_">
             <img src="https://img.icons8.com/nolan/64/000000/twitter.png" width="50px" height="50px">
             </img>
             </a>
 
 
-            <a  className="logo" href="https://www.linkedin.com/in/fernanda-rondon-450086186">
+            <a   href="https://www.linkedin.com/in/fernanda-rondon-450086186">
             <img src="https://img.icons8.com/nolan/64/000000/linkedin.png" width="50px" height="50px">
             </img>
             </a>
-            <a  className="logo" href="https://www.instagram.com/ojoyaparte_">
+            <a   href="https://www.instagram.com/ojoyaparte_">
             <img src="https://img.icons8.com/nolan/64/000000/instagram-new.png" width="50px" height="50px">
             </img>
             </a>
 
-            <a  className="logo" href="https://www.github.com/FernandaRon">
+            <a   href="https://www.github.com/FernandaRon">
             <img src="https://img.icons8.com/nolan/64/000000/github.png" width="50px" height="50px">
             </img>
             </a>

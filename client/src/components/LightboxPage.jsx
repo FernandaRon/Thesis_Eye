@@ -1,7 +1,19 @@
-import React from "react";
+import React, { Component } from 'react';
 import   '../dist/LightboxPage.css'
 
-const CarouselPage = () => {
+class Gallery extends Component {
+  state = {
+    count: 0
+  }
+
+  incrementMe = () => {
+    let newCount = this.state.count + 1
+    this.setState({
+      count: newCount
+    })
+  }
+
+  render () {
   return (
     <div className="main">
 
@@ -16,7 +28,8 @@ const CarouselPage = () => {
                 <img className="draw" src=" https://i.imgur.com/bq19Bbsm.jpg" width="100%">
                 </img>
                 <div className="bob">
-                <input  type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="30px" height="30px" />
+                <input onClick={this.incrementMe} type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="30px" height="30px" />
+              {this.state.count}
             </div>
             </div>
 
@@ -110,7 +123,7 @@ const CarouselPage = () => {
 
      <div className="column">
                 <div className="content">
-                    <img className="draw" src="https://i.imgur.com/cbKAn8Sm.jpg" width="100%">
+                    <img className="draw" src="https://i.imgur.com/5Js9WaQm.jpg" width="100%">
                     </img>
                     <div className="bob">
                     <input type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="30px" height="30px"/>
@@ -124,4 +137,6 @@ const CarouselPage = () => {
   );
 }
 
-export default CarouselPage;
+}
+
+export default Gallery;
