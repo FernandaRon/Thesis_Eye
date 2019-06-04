@@ -1,13 +1,32 @@
 
 
 .main {
+
     box-sizing: border-box;
     max-width: 1000px;
     margin: auto;
 }
 
+ .draw {
+  border-radius: 5px;
+
+ }
+
+
+
+
+.bob{
+  text-align: center;
+  border-radius: 10px;
+  border: 1.5px solid #E7E2DB;
+  width :230px;
+  height: 30px;
+  text-shadow: 2px;
+
+}
 
 .row {
+
         margin: 8px -16px;
     }
 

@@ -13,7 +13,7 @@ const Links = () => (
         <NavLink to="/">Home</NavLink>
       </div>
       <div id="nAbout">
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/work">Work</NavLink>
       </div>
       <div id="nContac">
         <NavLink to="/contact">Contact</NavLink>

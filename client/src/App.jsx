@@ -6,7 +6,7 @@ import Contact from '../src/components/Contact.jsx';
 import About from '../src/components/About.jsx';
 import Home from '../src/components/Home.jsx';
 import Links from '../src/components/Link.jsx';
-
+import Footer from '../src/components/Footer.jsx'
 
 
 
@@ -17,8 +17,9 @@ class App extends Component {
         <Router>
          <Links />
          <Route exact path="/" component={Home} />
-         <Route path="/about" component={About} />
+         <Route path="/work" component={About} />
          <Route path="/contact" component={Contact} />
+            <Footer />
        </Router>
 
      </div>)
