@@ -17,11 +17,13 @@
 
 .bob{
   text-align: center;
-  border-radius: 10px;
+  margin: auto;
+  border-radius: 8px;
   border: 1.5px solid #E7E2DB;
-  width :230px;
+  width :58px;
   height: 30px;
-  text-shadow: 2px;
+  text-shadow: 10px;
+
 
 }
 
