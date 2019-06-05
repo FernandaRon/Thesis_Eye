@@ -1,17 +1,34 @@
-import React from 'react'
-import LightboxPage from './LightboxPage.jsx'
+
+import React, { Component } from 'react';
+import Gallery from './Gallery.jsx'
 import  '../dist/LightboxPage.css'
 import Demo from './p5Carousel.jsx'
-const About = (props) => (
 
 
-<div className="row">
-  <div clasName="col">
-    <LightboxPage />
-     <Demo/>
-  </div>
-</div>
-)
+class About extends Component {
+  constructor(props) {
+    super(props)
+  }
+
+
+  render () {
+    return (<div className="row">
+              <div className="col">
+                <Gallery/>
+                <Demo/>
+            </div>
+          </div>)
+
+
+  }
+
+
+}
+
+
+
+
+
 
 
 

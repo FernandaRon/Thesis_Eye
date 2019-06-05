@@ -12,6 +12,9 @@ import Footer from '../src/components/Footer.jsx'
 
 
 class App extends Component {
+constructor(props) {
+super(props)
+}
   render() {
     return (<div>
         <Router>

@@ -2,16 +2,23 @@ import React, { Component } from 'react';
 import   '../dist/LightboxPage.css'
 
 class Gallery extends Component {
-  state = {
-    count: 0
+  constructor(props) {
+    super(props);
+  this.state = {
+    Likes: 0
   }
 
-  incrementMe = () => {
-    let newCount = this.state.count + 1
+  this.handleClick = this.handleClick.bind(this)
+}
+
+
+  handleClick() {
+    let newCount = this.state.Likes + 1
     this.setState({
-      count: newCount
+    Likes : newCount
     })
   }
+
 
   render () {
   return (
@@ -28,8 +35,8 @@ class Gallery extends Component {
                 <img className="draw" src=" https://i.imgur.com/bq19Bbsm.jpg" width="100%">
                 </img>
                 <div className="bob">
-                <input onClick={this.incrementMe} type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="30px" height="30px" />
-              {this.state.count}
+                <input onClick={this.handleClick} type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="30px" height="30px" />
+              {this.state.Likes}
             </div>
             </div>
 
