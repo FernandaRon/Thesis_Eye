@@ -10,13 +10,13 @@ const Links = () => (
   <div id="navbar" className="nav-link disabled">
     <nav>
       <div id="nHome">
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/"><input type="image" src="https://img.icons8.com/nolan/64/000000/menu-2.png"  width="40px" height="40px" /></NavLink>
       </div>
       <div id="nAbout">
-        <NavLink to="/work">Work</NavLink>
+        <NavLink to="/work"><input type="image" src="https://img.icons8.com/nolan/64/000000/visible.png"  width="40px" height="40px" /></NavLink>
       </div>
       <div id="nContac">
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/contact"><input type="image" src="https://img.icons8.com/nolan/64/000000/send.png"  width="40px" height="40px" /></NavLink>
       </div>
     </nav>
   </div>
