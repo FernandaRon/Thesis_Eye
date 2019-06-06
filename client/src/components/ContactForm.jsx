@@ -33,7 +33,6 @@ class ContactForm extends Component {
 
     render(){
         return(
-
       <div className="background">
       <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
         <div className="container">

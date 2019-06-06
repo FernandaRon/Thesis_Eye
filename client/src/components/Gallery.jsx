@@ -116,7 +116,7 @@ this.handleClick9 = this.handleClick9.bind(this)
                 </img>
                 <div className="bob">
                 <input onClick={this.handleClick} type="image" src="https://img.icons8.com/nolan/64/000000/like.png"  width="25px" height="25px" />
-              {this.state.Like}
+                <span className="num">{this.state.Like}</span>
             </div>
             </div>
 

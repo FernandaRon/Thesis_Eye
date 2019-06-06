@@ -1,5 +1,7 @@
 .logo {
   text-align: center;
-  margin-top: -50px;
+  position: relative;
+  bottom: 80%;
+
 
 }
