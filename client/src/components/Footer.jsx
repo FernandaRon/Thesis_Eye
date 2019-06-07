@@ -2,7 +2,8 @@ import React from "react";
 import '../dist/Footer.css'
 
 const Footer = () => {
-  return (<div className="logo">
+  return ( <div>
+    <div className="logo">
             <a   href="https://twitter.com/cotuh_">
             <img src="https://img.icons8.com/nolan/64/000000/twitter.png" width="50px" height="50px">
             </img>
@@ -22,6 +23,8 @@ const Footer = () => {
             <img src="https://img.icons8.com/nolan/64/000000/github.png" width="50px" height="50px">
             </img>
             </a>
+          </div>
+
           </div>
           )
 }

@@ -71,8 +71,7 @@ class ContactForm extends Component {
 
 
                   <div className="app-form-group message">
-                    <input className="app-form-control" placeholder="MESSAGE" id="message">
-                    </input>
+                    <textarea className="app-form-control" placeholder="MESSAGE" height="400px"></textarea>
                   </div>
                   <div className="app-form-group buttons">
                     <button  className="app-form-button">SEND</button>

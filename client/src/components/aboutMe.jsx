@@ -5,7 +5,7 @@ import '../dist/Footer.css'
 const AboutMe = (props) => (
 
 
-<img className="me" src="https://i.imgur.com/COuPSKIm.png" width="300px" height="300px"/>
+<img className="me" src="https://i.imgur.com/3JA9hdgm.png" width="400px" height="400px"/>
 
 
 )

@@ -1,12 +1,16 @@
 .logo {
+  background-color: #666B6D;
+  background-size: 100%;
   text-align: center;
   position: relative;
-  bottom: 80%;
-
-
+  bottom: 100%;
+  width:100%;
 }
 
+
+
 .me {
-  border-radius: 50%;
-  box-shadow: 10px 10px #D3D0CE
+position: relative;
+right: 40px;
+
 }
