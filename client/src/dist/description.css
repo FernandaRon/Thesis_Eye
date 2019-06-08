@@ -1,0 +1,36 @@
+.hone {
+position: relative;
+left:400px;
+font-size: 100px;
+}
+
+.hone1 {
+ position: relative;
+ bottom:98px;
+ left:568px;
+ font-size: 100px
+
+}
+
+.hone2 {
+ position: relative;
+ left:400px;
+ bottom:180px;
+ font-size: 110px
+
+}
+
+.hone3{
+ position: relative;
+bottom:275px;
+ left:610px;
+ font-size: 60px
+
+}
+
+.hone4{
+position: relative;
+ left:450px;
+ font-size: 60px;
+top: -310px;
+}
