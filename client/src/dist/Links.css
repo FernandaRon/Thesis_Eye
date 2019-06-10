@@ -2,15 +2,13 @@
 
 #navbar {
   background: white;
-      position: fixed;
+      position: relative;
       top: 0;
       left: 0;
       right: 0;
       height: 80px;
       align-items: center;
       display: flex;
-      font-style: oblique;
-      font-family: sans-serif
 
 }
 

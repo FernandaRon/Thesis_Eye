@@ -1,3 +1,16 @@
+.works {
+  position: relative;
+  text-align: center;
+   bottom:  280px;
+   font-size: 25px;
+}
+
+.des {
+font-size: 18px;
+font-style: italic
+
+}
+
 .whole{
   position: relative;
   left: 450px;
