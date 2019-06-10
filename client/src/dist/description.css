@@ -1,10 +1,23 @@
+.whole{
+  position: relative;
+  left: 450px;
+
+
+}
 .hone {
+  background: linear-gradient(to right, #30CFD0 0%, #307DBD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 position: relative;
 left:400px;
 font-size: 100px;
 }
 
 .hone1 {
+  background: linear-gradient(to right, #49A1D3 0%, #307DBD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
  position: relative;
  bottom:98px;
  left:568px;
@@ -13,6 +26,7 @@ font-size: 100px;
 }
 
 .hone2 {
+color: #636A6E;
  position: relative;
  left:400px;
  bottom:180px;
@@ -21,6 +35,9 @@ font-size: 100px;
 }
 
 .hone3{
+  background: linear-gradient(to right, #307DBD 0%, #8B47F4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
  position: relative;
 bottom:275px;
  left:610px;
@@ -29,8 +46,11 @@ bottom:275px;
 }
 
 .hone4{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 position: relative;
- left:448px;
- font-size: 50px;
-top: -310px;
+ left:500px;
+ font-size: 20px;
+top: -296px;
 }
