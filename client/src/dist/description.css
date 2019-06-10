@@ -1,8 +1,11 @@
 .works {
-  position: relative;
+  color: #323537;
+  position: absolute;
+  right:  0%;
+  top: 80%;
+  width: 100%;
   text-align: center;
-   bottom:  280px;
-   font-size: 25px;
+  font-size: 20px
 }
 
 .des {
@@ -12,8 +15,9 @@ font-style: italic
 }
 
 .whole{
-  position: relative;
-  left: 450px;
+    position:absolute;
+    top:  70%;
+    left:  38%;
 
 
 }
@@ -52,7 +56,7 @@ color: #636A6E;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  position: relative;
-bottom:275px;
+ bottom:275px;
  left:610px;
  font-size: 60px
 

@@ -10,6 +10,7 @@
       align-items: center;
       display: flex;
 
+
 }
 
 #nHome {
@@ -31,7 +32,7 @@ right: 80px;
 }
 
 #nContac {
-position: fixed;
+
 height: 80px;
 position: absolute;
 top: 30px;
